@@ -1,0 +1,333 @@
+.questions {
+    width: 904px;
+    font-family: 'KyivType Sans Bold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
+    text-transform: uppercase;
+    margin-top: 192px;
+    margin-left: 400px;
+    color: #F5F5F5;
+}
+.mobileInfo{
+    display: none;
+}
+.container1{
+    width: 95%;
+    margin: auto;
+}
+form {
+    width: 598px;
+    margin-left: 102px;
+    margin-top: 45px;
+    
+}
+input:focus-visible, #textarea:focus-visible {
+    background: rgba(213, 220, 238, 0.9);
+    color: #32353C;
+
+}
+.name {
+    height: 77px;
+    border: 4px solid #728BAD;
+    border-radius: 42px;
+    padding-left: 47px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;
+}
+
+.tel {
+    height: 77px;
+    border: 4px solid #728BAD;
+    border-radius: 42px;
+    padding-left: 47px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;
+}
+
+#textarea {
+    height: 235px;
+    border: 4px solid #728BAD;
+    border-radius: 42px;
+    padding-left: 47px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;
+    resize: none;
+}
+
+.send {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 70px;
+    gap: 10px;
+    width: 216px;
+    height: 58px;
+    background: #728BAD;
+    border-radius: 42px;
+    
+}
+
+
+.forSending {
+    width: 76px;
+    height: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.paragraph1 {
+    width: 546px;
+    margin-left: 64px;
+    margin-top: 42px;
+
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;
+    text-align: right;
+    color: #F5F5F5;
+}
+
+.usersInfo {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.orderButton {
+    margin-left: 102px;
+    margin-top: 40px;
+    
+}
+
+.lastWood {
+    width: 477.31px;
+    height: 482.47px;
+    margin-top: 156px;
+}
+
+.tel,
+.name,
+#textarea {
+    background: transparent;
+    width: 598px;
+    margin-top: 23px;
+}
+button:hover{
+    cursor: pointer;
+}
+.error-message {
+    color: white;
+}
+
+@media screen and (max-width: 1260px) {
+    .questions {
+        width: 880px;
+        margin-left: 230px;
+    }
+    form {
+        width: 500px;
+        margin-left: 70px;
+    }
+    .text {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .text{
+        width: 90%;
+        margin-right: 10px;
+    }
+    .paragraph1 {
+        width: 40%;
+    margin-left: 130px;
+    margin-top: 42px;
+    }
+}
+@media screen and (max-width: 1130px) {
+    .questions {
+        
+        margin-left:160px;
+       
+    }
+   
+    .lastWood{
+        width: 370px;
+        height: 380px;
+        margin-left: -50px;
+    }
+}
+@media screen and (max-width: 1090px){
+.questions{
+    margin-left: 80px;
+}
+}
+@media screen and (max-width: 1040px) {
+    
+    .text{
+        width: 90%;
+        margin-right: 10px;
+    }
+    .paragraph1 {
+        width: 40%;
+    margin-left: 140px;
+    margin-top: 42px;
+    }
+    form {
+        width: 450px;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .questions {
+        
+        margin-left:auto;
+        font-size: 50px;
+    }
+   
+    .paragraph1{
+       width: 350px;
+        font-size: 25px;
+        margin-left: 50px;
+    }
+    div form input{
+        width: 450px;
+
+    }
+    .name, .tel {
+        font-size: 20px;
+        height: 50px;
+    }
+    #textarea{
+        font-size: 20px;
+        height: 150px; 
+        width: 450px;
+    }
+    .forSending{
+       
+        font-size: 20px;
+    }
+    .orderButton{
+        width: 100px;
+        height: 40px;
+        margin-left: 0;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .questions{
+        width: 700px;
+    }
+ .lastWood{
+    display: none;
+ }
+ .orderButton{
+    margin-bottom: 70px;
+ }
+}
+@media screen and (max-width: 860px) {
+    .questions {
+        font-size: 40px;
+    }
+    form {
+        width: 350px;
+        margin-left: 0;
+    }
+    .paragraph1{
+       width: 200px;
+        font-size: 20px;
+    }
+    div form input{
+        width: 350px;
+
+    }
+    .name, .tel {
+        font-size: 20px;
+        height: 50px;
+    }
+    #textarea{
+        font-size: 20px;
+        height: 150px; 
+        width: 350px;
+    }
+    .lastWood{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .mobileInfo{
+        display: block;
+        margin: auto;
+    }
+    .questions {
+        font-size: 40px;
+        width: 500px;
+    }
+    form {
+        width: 450px;
+        margin-left: 0;
+    }
+    .paragraph1{
+       display: none;
+    }
+    .mobileText{
+        font-size: 20px;
+        width: 90%;
+        margin-top: 30px;
+        text-align: left;
+    }
+    div form input{
+        width: 450px;
+
+    }
+    #textarea{
+        width: 450px;
+    }
+    
+}
+@media screen and (max-width: 510px) {
+    .questions {
+        font-size: 30px;
+        width: 90%;
+    }
+}
+@media screen and (max-width: 500px) {
+   
+    
+    form {
+        width: 310px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    div form input{
+        width: 310px;
+
+    }
+    #textarea{
+        width: 310px;
+    }
+    
+}

@@ -1,0 +1,16 @@
+<section id="aboutUs">
+<h2 class="about" *ngFor="let item of data">{{item.title}}</h2>
+<div>
+    <div class="workersText" *ngFor="let item of data">
+        <p class="textAbout">{{item.text}}</p>
+    </div>
+    <div class="workers" *ngFor="let item of data">
+        <img class='worker2' src="{{item.images.icon1}}" alt="person">
+        <img class='worker1'
+                        src="{{item.images.icon2}}"
+                        alt="worker">
+        <img class='worker3'
+                        src="{{item.images.icon3}}" alt="worker">
+    </div>
+</div>
+</section>

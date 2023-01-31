@@ -1,0 +1,127 @@
+{
+    "menu": [
+    {
+        
+        "image" : "assets/images/logo .png",
+        "menuList": {
+            "list1": "Gallery",
+            "list2": "Prices for services",
+            "list3": "About us",
+            "list4": "Contact"
+        }
+    }],
+    "solid_block": [
+        {
+        
+        "title": "solid wood products",
+        "text" : "Oak, beech, ash from 1700 CZK per m3",
+        "images" : {
+            "image1" : "assets/images/image.png",
+            "image2" : "assets/images/image (1).png",
+            "image3" : "assets/images/image (2).png"
+        }
+    }
+    ],
+    "wood_work": [
+        {
+            "title" : "THE WOOD WE WORK WITH",
+            "category" : {
+                "icon" : "assets/images/old-wood-grain-background (1).png",
+                "title" : "Oak",
+                "name1" : "Durability",
+                "name2" : "Beautiful texture",
+                "name3" : "Water resistance",
+                "name4" : "Expensive"
+            },
+            "category1":{
+                "icon1" : "assets/images/old-wood-grain-background (2).png",
+                "title1" : "Buk",
+                "name1" : "Durability",
+                "name2" : "Hard to handle"
+                
+            },
+            "category2":{
+                "icon2" : "assets/images/old-wood-grain-background (3).png",
+                "title2" : "Ash",
+                "name1" : "Durability",
+                "name2" : "Hard to handle"
+                
+            }
+        
+        }
+    ],
+    "our_work" : [
+        {
+            "title" : "OUR WORK",
+            "images" : {
+                "image1" : "assets/images/kitchen.png",
+                "image2" : "assets/images/Modern-wooden-Kitchen-Cabinets-1.jpg",
+                "image3" : "assets/images/Suelo-Modern-Wood-Sofa-Solid-Walnut-01.jpg"
+            }
+        }
+    ],
+    "advantages" : [ 
+        {
+        "title": "Advantages working with us",
+        "text1" : "In-house carpentry production",
+        "text2" : "We only treat wood with environmentally friendly and safe products",
+        "text3" : "Prices from the manufacturer, no extra charges",
+        "image" : "assets/images/video.png"
+        }
+    ],
+    "about_us" : [ 
+        {
+        "title": "About us",
+        "text" : "BIO CWT - We manufacture solid wood products according to individual drawings. We make chairs, armchairs, wardrobes, beds and much more in our own workshop, equipped with all the necessary industrial equipment.",
+        "images" : {
+                "icon1" : "assets/images/person-taking-measures-wood 1.png",
+                "icon2" : "assets/images/portrait-young-motivated-carpenter-standing-by-woodworking-machine-his-carpentry-workshop 1.png",
+                "icon3" : "assets/images/cropped-man-wearing-blue-overall-drawing-furniture-sheet-paper 1.png"
+            }
+        
+        }
+    ],
+    "any_questions" : [
+        {
+            "title" : "Any questions?",
+            "text" : "Write to us and we will be sure to answer all your questions and give you a comprehensive consultation.",
+            "icon" : "assets/images/woodlast.png"
+        }
+    ],
+    "footer" : [
+        {
+            "image" : "assets/images/logo .png",
+            "text": "Privacy Policy",
+            "category" : {
+                "icon": "assets/images/ph_phone-call.png",
+                "text" : "+420 000 000 000"
+                },
+            "category1": {
+                    "icon1": "assets/images/location.png",
+                    "text1" : "Na Plzeňce 1166/0  150 00"
+                }
+        
+        }
+    ],
+    "price_list" : [
+        {
+            "title" : "PRICE LIST",
+            "image1" : "assets/images/price.png",
+            "image2" : "assets/images/1.PNG",
+            "image3" : "assets/images/2.PNG"
+        }
+    ],
+    "contact" : [
+        {
+            "title" : "CONTACT",
+            "category" :     {
+                "icon": "assets/images/ph_phone-call.png",
+                "text" : "+420 000 000 000"
+                },
+            "category1": {
+                    "icon1": "assets/images/location.png",
+                    "text1" : "Na Plzeňce 1166/0 150 00"
+                }
+        }
+    ]
+}

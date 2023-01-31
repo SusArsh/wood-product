@@ -1,0 +1,36 @@
+<section id="menu">
+        <div class="nav" >
+            <div class="logo" *ngFor="let item of data"> <a routerLink="/home">
+                    <img src="{{item.image}}">
+                </a>
+            </div>
+            <ul class="menu" *ngFor="let item of data">
+                <li class="menuList1"><a routerLink="/gallery">{{item.menuList.list1}}</a></li>
+                <li class="menuList2"><a routerLink="/price">{{item.menuList.list2}}</a></li>
+                <li class="menuList3"><a routerLink="/about">{{item.menuList.list3}}</a></li>
+                <li class="menuList4"><a routerLink="/contact">{{item.menuList.list4}}</a></li>
+            </ul>
+        </div>
+</section>
+<section id="mobileMenu">
+    <div class="nav" >
+        <div class="logo" *ngFor="let item of data"> <a routerLink="/home">
+                <img src="{{item.image}}">
+            </a>
+        </div>
+    <div class="btn-group" dropdown>
+        <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle menu-button"
+                aria-controls="dropdown-basic">
+          <img src="../../assets/images/GroupMenu.png"></button>
+        <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+             aria-labelledby="button-basic">
+          <li role="menuitem"><a class="dropdown-item pages" routerLink="/gallery">Gallery</a></li>
+          <li role="menuitem"><a class="dropdown-item pages" routerLink="/price">Prices for services</a></li>
+          <li role="menuitem"><a class="dropdown-item pages" routerLink="/about">About us</a></li>
+         
+          <li role="menuitem"><a class="dropdown-item pages" routerLink="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+</section>

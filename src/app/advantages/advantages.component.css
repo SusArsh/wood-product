@@ -1,0 +1,303 @@
+.advantages {
+    font-family: 'KyivType Sans Bold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    width: 925px;
+    margin-right: 162px;
+    margin-left: 200px;
+    margin-top: 220px;
+}
+#forMobile{
+    display: none;
+}
+
+.video {
+    /* position: absolute; */
+    width: 609px;
+    height: 386px;
+    border-radius: 42px;
+    margin-left: 101px;
+    margin-right: 120px;
+}
+
+.videoContainer {
+    display: flex;
+    width: 1188px;
+justify-content: space-around;
+    margin: auto;
+}
+
+.advantagesList {
+    list-style: none;
+    /* position: absolute; */
+}
+
+.advantages1,
+.advantages2,
+.advantages3 {
+    /* position: absolute; */
+    width: 340px;
+    left: 731px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;
+    color: #F5F5F5;
+    margin-bottom: 46px;
+}
+
+.advantages1 {
+    top: 351px;
+    height: 84px;
+
+}
+
+.advantages2 {
+    top: 481px;
+    height: 126px;
+}
+
+.advantages3 {
+    top: 653px;
+    height: 84px;
+
+}
+
+.receiveButton {
+    margin: 11px 70px;
+    gap: 10px;
+    /* position: absolute; */
+    width: 472px;
+    height: 58px;
+    left: 349px;
+    top: 858px;
+    background: #728BAD;
+    border-radius: 42px;
+    width: 472px;
+
+}
+
+
+.receive {
+    width: 332px;
+    height: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+    color: #F5F5F5;
+
+}
+
+.orderButton {
+    margin-left: 450px;
+    margin-right: 518px;
+    margin-top: 121px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+
+    .advantages {
+        font-size: 70px;
+        margin-left: 100px;
+
+    }
+    .video {
+        width: 450px;
+        height: 350px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .advantagesList{
+        padding: 0;
+    }
+    .orderButton{
+        margin-left: 310px;
+    }
+    .videoContainer{
+        width: 1000px;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .advantages {
+      margin-left: 65px;
+
+    }
+}
+@media screen and (max-width: 1000px) {
+    .advantages {
+        font-size: 50px;
+        /* text-align: center; */
+        margin-bottom: 40px;
+        width: 520px;
+
+    }
+
+    div ul li {
+        font-size: 25px;
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    .video {
+        width: 450px;
+        height: 350px;
+    }
+
+    .orderButton {
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .advantages {
+        font-size: 50px;
+        /* text-align: center; */
+        margin-bottom: 40px;
+        width: 600px;
+        margin-left: 30px;
+
+    }
+    .advantagesList{
+        padding-left: 0;
+    }
+
+    div ul li {
+        font-size: 25px;
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    .video {
+        width: 430px;
+        height: 330px;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 14px;
+
+    }
+    .videoContainer{
+        width: 100%;
+    }
+
+    .orderButton {
+        margin:  auto;
+        width: 300px;
+    }
+    .receiveButton{
+        width: 300px;
+    }
+    div button span a{
+        font-size: 20px;
+    }
+    .cont{
+       width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #forMain{
+        display: none;
+    }
+    #forMobile {
+        display: block;
+
+    }
+    .advantagesList {
+        margin-left: 30px;
+    }
+
+    .videoContainer {
+        display: block;
+        margin: auto;
+    }
+    .cont{
+        width: 99%;
+         margin: auto;
+     }
+  
+    .forVideo{
+        width: 99%;
+
+        margin: auto;
+    }
+   
+    .orderButton {
+        margin:  auto;
+        width: 300px;
+    }
+    .receiveButton{
+        width: 300px;
+        margin: 11px 0;
+
+    }
+    .advantages1, .advantages2, .advantages3{
+        width: 90%;
+
+    }
+
+    
+}
+@media screen and (max-width: 630px) {
+    .advantages{
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+   
+    .advantages {
+        font-size: 30px;
+        width: 350px;
+
+    }
+    div ul li{
+    font-size: 20px;
+}
+.video {
+
+    max-width: 350px;
+    height: 330px;
+   border-radius: 14px;
+}
+.cont{
+    width: 99%;
+     margin: auto;
+ }
+}
+@media screen and (max-width: 375px) {
+   
+    .advantages {
+        font-size: 25px;
+        width: 90%;
+
+    }
+    div ul li{
+    font-size: 18px;
+}
+.video {
+width: 100%;
+    max-width: 370px;
+    height: 210px;
+   border-radius: 14px;
+}
+.cont{
+    width: 99%;
+     margin: auto;
+ }
+
+}

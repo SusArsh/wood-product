@@ -1,0 +1,27 @@
+<section id="footer1" >
+    <div class="forFlex">
+        <div *ngFor="let item of data">
+            <a routerLink="/home"><img class='logoMini' src="{{item.image}}" alt="logo"></a>
+        </div>
+        
+            <div class="phone1" *ngFor="let item of data">
+                <a href="tel: +420 000 000 000"><img class='phone' src="{{item.category.icon}}" alt="phone"></a>
+                <p class='phoneNumber'><a href="tel: +420 000 000 000">{{item.category.text}}</a></p>
+            </div>
+            <div class="forAddress" *ngFor="let item of data">
+
+                <a href="https://www.google.com/maps/@40.805449,-73.965441,14z?hl=en"><img class='location'
+                        src="{{item.category1.icon1}}" alt="location"></a>
+
+                <p class="address">
+                    <a class="add" href="https://www.google.com/maps/@40.805449,-73.965441,14z?hl=en"> {{item.category1.text1}}</a>
+                </p>
+            </div>
+        </div>
+
+    <div class="forPrivacyPolicy" *ngFor="let item of data">
+        <p class="privacyPolicy"><a routerLink="/privacy">{{item.text}}</a> </p>
+    </div>
+
+
+</section>

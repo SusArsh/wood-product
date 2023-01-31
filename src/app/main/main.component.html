@@ -1,0 +1,15 @@
+<section id="section1">
+    <div class="solidWood">
+      <div *ngFor="let item of data" class="forHeaders">
+        <h1>{{item.title}}</h1>
+        <h2 class="oak">{{item.text}}</h2>
+        <span class="line1"></span>
+      </div>
+      <button type="button" class="orderButton"><span class="order"><a routerLink="/price">Order</a></span></button>
+      <div  *ngFor="let item of data" class='imgContainer'>
+        <img class='imgChair' src="{{item.images.image1}}">
+        <img class='staircase' src="{{item.images.image2}}">
+        <img class='table' src="{{item.images.image3}}">
+      </div>
+    </div>
+</section>

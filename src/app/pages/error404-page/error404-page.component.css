@@ -1,0 +1,240 @@
+#backgr {
+    background-image: url('../../../assets/images/imag.png');
+    background-repeat: no-repeat;
+   
+height: 1160px;
+
+}
+a{
+    text-decoration: none;
+}
+.for404 {
+    width: 1096px;
+    /* height: 539px; */
+    margin-left: 162px;
+    margin-top: 40px;
+}
+
+.woops {
+    width: 310px;
+    height: 97px;
+    margin-left: 670px;
+    margin-top: 10px;
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 107.9%;
+    color: #F5F5F5;
+}
+
+.text404 {
+    /* width: 772px; */
+    height: 36px;
+    margin-left: 200px;
+    margin-top: 37px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFDBBB;
+    /* border: 1px solid #000000; */
+}
+
+.forErrorButton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 70px;
+    gap: 10px;
+    width: 454px;
+    height: 58px;
+    margin-left: 598px;
+    top: 881px;
+    background: #728BAD;
+    border-radius: 42px;
+}
+
+.errButt {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+
+}
+
+.button404 {
+    margin-bottom: 62px;
+
+}
+@media screen and (max-width: 1260px){
+    .for404 {
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .for404 {
+        width: 900px;
+
+    }
+    .woops{
+        margin-left: 460px;
+    }
+    .forErrorButton{
+        margin-left: 410px;
+    }
+    #backgr{
+        height: 1000px;
+    }
+}
+@media screen and (max-width: 992px){
+    .for404{
+        width: 800px;
+    }
+    .woops{
+        margin-left: 340px;
+    }
+    .forErrorButton{
+        margin-left: 280px;
+    }
+}
+@media screen and (max-width: 900px){
+    .for404 {
+        margin-left: 40px;
+    }
+   
+    .woops {
+       
+        margin-left: 345px;
+    }
+}
+@media screen and (max-width: 840px){
+.for404{
+    width: 720px;
+}
+.woops{
+    margin-left: 240px;
+}
+.text404{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.forErrorButton{
+    margin-left: 190px;
+}
+#backgr{
+    height: 850px;
+}
+}
+@media screen and (max-width: 750px){
+    .for404 {
+        width: 600px;
+    }
+    .text404 {
+        font-size: 20px;
+    }
+    .errButt{
+        font-size: 20px;
+    }
+    .woops {
+        margin-left: 225px;
+    }
+    .forErrorButton {
+        margin-left: 200px;
+        width: 320px;
+    }
+   
+}
+@media screen and (max-width: 640px){
+    .for404 {
+        width: 540px;;
+
+    }
+    .woops {
+        margin-left: 160px;
+    }
+    .forErrorButton {
+        margin-left: 170px;
+    }
+}
+@media screen and (max-width: 580px){
+    .for404 {
+        width: 470px;;
+
+    }
+}
+@media screen and (max-width: 510px){
+    .for404 {
+        width: 450px;;
+
+    }
+    #backgr{
+        height: 700px;
+    }
+    .forErrorButton {
+        margin-left: 95px;
+    }
+}
+@media screen and (max-width: 490px){
+    .for404 {
+        width: 380px;
+    }
+    .text404 {
+        text-align: center;
+   
+        padding-bottom: 90px;
+        margin-left: 0;
+    }
+    .woops {
+        margin-left: 95px;
+    }
+    .forErrorButton {
+        margin-left:90px;
+    }
+    
+}
+@media screen and (max-width: 420px){
+.for404{
+    width: 330px;
+}
+.woops{
+    padding-left: 50px;
+    font-size: 50px;
+    width: 100px;
+}
+.forErrorButton{
+    margin-left: 50px;
+}
+}
+@media screen and (max-width: 370px){
+    .for404{
+        width: 300px;
+    }
+    
+    .forErrorButton{
+        margin-left: 20px;
+    }
+    }
+    @media screen and (max-width: 340px){
+        .for404{
+            width: 300px;
+            margin-left: 10px;
+        }
+        .woops{
+            padding-left: 10px;
+        }
+        
+        .forErrorButton{
+            margin-left: 5px;
+            width: 305px;
+        }
+        }

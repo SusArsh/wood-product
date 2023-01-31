@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+}
+#aboutUs {
+    width: 1325px;
+    height: 775px;
+    margin-top: 240px;
+    margin-right: auto;
+    background: #1E0C06;
+    border-radius: 0px 42px 42px 0px;
+    filter: drop-shadow(0px 4px 52px rgba(245, 245, 245, 0.17));
+
+}
+.about {
+    padding-left: 243px;
+    padding-top: 44px;
+    font-family: 'KyivType Sans Bold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
+    text-transform: uppercase;
+    color: #F5F5F5;
+}
+
+.textAbout {
+    /* position: absolute; */
+    width: 516px;
+    height: 294px;
+    margin-left: 253px;
+    margin-top: 67px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 139.4%;
+    color: #F5F5F5;
+}
+
+.worker1 {
+    position: absolute;
+    width: 337px;
+    height: 337px;
+    left: 831px;
+    top: 177px;
+    border-radius: 42px;
+}
+
+.worker2 {
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 1050px;
+    top: 61px;
+    border-radius: 42px;
+}
+
+.worker3 {
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    left: 1018px;
+    top: 539px;
+    border-radius: 42px;
+}
+@media screen and (max-width: 1260px) {
+#aboutUs{
+    width: 98%;
+    /* max-width: 1100px; */
+}
+.about{
+    padding-left: 100px;
+}
+.textAbout{
+    margin-left: 110px;
+}
+.worker1{
+    left: 700px;
+}
+.worker2{
+    left: 925px;
+}
+.worker3{
+    left: 925px;
+}
+}
+@media screen and (max-width: 1150px) {
+    #aboutUs{
+        height: 700px;
+    }
+    .worker1{
+        width: 300px;
+        height: 270px;
+    }
+    .worker2{
+        width: 180px;
+        height: 165px;
+    }
+    .worker3{
+        width: 180px;
+        height: 165px;
+    }
+}
+@media screen and (max-width: 1130px) {
+    .about{
+        padding-left: 50px;
+        font-size: 50px;
+    }
+    .textAbout{
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    .worker1{
+        left: 640px;
+
+    }
+    .worker2{
+        left: 835px;
+
+    }
+    .worker3{
+        left: 835px;
+        top:500px;
+
+    }
+}
+@media screen and (max-width: 1040px) {
+    .about{
+        padding-left: 50px;
+        font-size: 50px;
+    }
+    .textAbout{
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    .worker1{
+        left: 600px;
+
+    }
+    .worker2{
+        left: 780px;
+
+    }
+    .worker3{
+        left: 780px;
+        top:500px;
+
+    }
+}
+@media screen and (max-width: 992px) {
+    #aboutUs{
+        height: 625px;
+    }
+    .worker1{
+        width: 250px;
+        height: 230px;
+    }
+    .worker2{
+        width: 145px;
+        height: 140px;
+    }
+    .worker3{
+        width: 145px;
+        height: 140px;
+        top: 450px
+    }
+}
+@media screen and (max-width: 950px) {
+    #aboutUs{
+        height: 750px;
+    }
+    .about{
+        width: 100%;
+        font-size: 50px;
+    }
+    .textAbout{
+        width: 90%;
+        font-size: 20px;
+    }
+    .worker1{
+        left: 165px;
+        top:345px;
+        border-radius: 14px;
+    }
+    .worker2{
+        left: 385px;
+        top:302px;
+        border-radius: 14px;
+    }
+    .worker3{
+        left: 330px;
+        top:590px;
+        border-radius: 14px;
+    }
+    
+}
+@media screen and (max-width: 580px) {
+    .worker1{
+        width: 185px;
+        height:  185px;
+        top: 390px;
+    }
+    .worker2{
+        width: 111px;
+        height:  111px;
+        left: 320px;
+        top: 350px;
+    }
+    .worker3{
+        width: 111px;
+        height:  111px;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    /* #aboutUs{
+        height: 750px;
+    } */
+    .about{
+        
+        font-size: 30px;
+    }
+    .textAbout{
+        padding: 0 30px;
+        margin-left: 0;
+        margin-top: 30px;
+        font-size: 18px;
+    }
+     .worker1{
+        width: 185px;
+        height:  185px;
+        left: 30px;
+    }
+    .worker2{
+        width: 111px;
+        height:  111px;
+        left: 180px;
+       
+    }
+    .worker3{
+       left: 180px;
+    }
+}

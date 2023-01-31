@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'KyivType Sans Black';
+    src: url('KyivTypeSans-Black-.woff2') format('woff2'),
+        url('KyivTypeSans-Black-.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('KyivTypeSans-Black.woff2') format('woff2'),
+        url('KyivTypeSans-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Black2';
+    src: url('KyivTypeSans-Black2.woff2') format('woff2'),
+        url('KyivTypeSans-Black2.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Black3';
+    src: url('KyivTypeSans-Black3.woff2') format('woff2'),
+        url('KyivTypeSans-Black3.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('KyivTypeSans-Bold.woff2') format('woff2'),
+        url('KyivTypeSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Bold';
+    src: url('KyivTypeSans-Bold-.woff2') format('woff2'),
+        url('KyivTypeSans-Bold-.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Bold3';
+    src: url('KyivTypeSans-Bold3.woff2') format('woff2'),
+        url('KyivTypeSans-Bold3.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Bold2';
+    src: url('KyivTypeSans-Bold2.woff2') format('woff2'),
+        url('KyivTypeSans-Bold2.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Heavy';
+    src: url('KyivTypeSans-Heavy-.woff2') format('woff2'),
+        url('KyivTypeSans-Heavy-.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('KyivTypeSans-Heavy.woff2') format('woff2'),
+        url('KyivTypeSans-Heavy.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Heavy2';
+    src: url('KyivTypeSans-Heavy2.woff2') format('woff2'),
+        url('KyivTypeSans-Heavy2.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('KyivTypeSans-Light.woff2') format('woff2'),
+        url('KyivTypeSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Heavy3';
+    src: url('KyivTypeSans-Heavy3.woff2') format('woff2'),
+        url('KyivTypeSans-Heavy3.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Light2';
+    src: url('KyivTypeSans-Light2.woff2') format('woff2'),
+        url('KyivTypeSans-Light2.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Light';
+    src: url('KyivTypeSans-Light-.woff2') format('woff2'),
+        url('KyivTypeSans-Light-.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('KyivTypeSans-Medium.woff2') format('woff2'),
+        url('KyivTypeSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Light3';
+    src: url('KyivTypeSans-Light3.woff2') format('woff2'),
+        url('KyivTypeSans-Light3.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Medium2';
+    src: url('KyivTypeSans-Medium2.woff2') format('woff2'),
+        url('KyivTypeSans-Medium2.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Medium';
+    src: url('KyivTypeSans-Medium-.woff2') format('woff2'),
+        url('KyivTypeSans-Medium-.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans Medium3';
+    src: url('KyivTypeSans-Medium3.woff2') format('woff2'),
+        url('KyivTypeSans-Medium3.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('KyivTypeSans-Regular.woff2') format('woff2'),
+        url('KyivTypeSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('KyivTypeSans-Regular-.woff2') format('woff2'),
+        url('KyivTypeSans-Regular-.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans2';
+    src: url('KyivTypeSans-Regular2.woff2') format('woff2'),
+        url('KyivTypeSans-Regular2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans3';
+    src: url('KyivTypeSans-Regular3.woff2') format('woff2'),
+        url('KyivTypeSans-Regular3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('KyivTypeSans-Thin.woff2') format('woff2'),
+        url('KyivTypeSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

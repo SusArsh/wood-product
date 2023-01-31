@@ -1,0 +1,36 @@
+<section id="forMain">
+    <h2 class='advantages' *ngFor="let item of data">{{item.title}}</h2>
+    <div class="videoContainer" *ngFor="let item of data">
+        <img class="video" src="{{item.image}}">
+        <ul class="advantagesList">
+            <li class="advantages1">{{item.text1}}</li>
+            <li class="advantages2">{{item.text2}}</li>
+            <li class="advantages3">{{item.text3}}</li>
+        </ul>
+    </div>
+    <div class="orderButton">
+        <button type="button" class="receiveButton"><span class="order receive"><a routerLink="/consultation">Receive a
+                    consultation</a> </span></button>
+    </div>
+</section>
+<section id="forMobile">
+    <h2 class='advantages' *ngFor="let item of data">{{item.title}}</h2>
+    <div class="videoContainer" *ngFor="let item of data">
+
+        <ul class="advantagesList">
+            <li class="advantages1">{{item.text1}}</li>
+            <li class="advantages2">{{item.text2}}</li>
+            <li class="advantages3">{{item.text3}}</li>
+        </ul>
+
+        <div class="cont">
+            <div class="forVideo">
+                <img class="video" src="{{item.image}}">
+            </div>
+        </div>
+        <div class="orderButton">
+            <button type="button" class="receiveButton"><span class="order receive"><a routerLink="/questions">Receive a
+                        consultation</a> </span></button>
+        </div>
+    </div>
+</section>

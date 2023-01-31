@@ -1,0 +1,34 @@
+<section id="section2">
+    <h2 class='workingWith' *ngFor="let item of data">{{item.title}}</h2>
+    <div class='container1'>
+        <div class="woodTextureDesign">
+            <div class="firstWood" *ngFor="let item of data">
+                
+                <img class='firstTexture' src="{{item.category.icon}}">
+                <h3 class="designHeader">{{item.category.title}}</h3>
+                <ul class="texture">
+                    <li class='property1'>{{item.category.name1}}</li>
+                    <li class='property2'>{{item.category.name2}}</li>
+                    <li class='property3'>{{item.category.name3}}</li>
+                    <li class='property4'>{{item.category.name4}}</li>
+                </ul>
+            </div>
+            <div class="secondWood" *ngFor="let item of data">
+                <img class='secondTexture' src="{{item.category1.icon1}}">
+                <h3 class="designHeader buk">{{item.category1.title1}}</h3>
+                <ul class="texture">
+                    <li class='property1'>{{item.category1.name1}}</li>
+                    <li class='property4 '>{{item.category1.name2}}</li>
+                </ul>
+            </div>
+            <div class="thirdWood" *ngFor="let item of data">
+                <img class='thirdTexture' src="{{item.category2.icon2}}">
+                <h3 class="designHeader ash">{{item.category2.title2}}</h3>
+                <ul class="texture">
+                    <li class='property1'>{{item.category2.name1}}</li>
+                    <li class='property4 '>{{item.category2.name2}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

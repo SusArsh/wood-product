@@ -1,0 +1,19 @@
+.firstPage {
+    background-image: url("../../../assets/images/imag.png");
+    /* background-position: left 0 top 0; */
+    background-repeat: no-repeat;
+    height: 1080px;
+   
+}
+.nav{
+    background: transparent;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+    .firstPage {
+         height: 670px;
+     }
+ }

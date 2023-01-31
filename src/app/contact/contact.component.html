@@ -1,0 +1,31 @@
+<div class="root">
+<app-menu></app-menu>
+
+<section id="contactPage">
+    <h2 class="contactText" *ngFor="let item of data">{{item.title}}</h2>
+
+    <div class="contactInfo">
+        <div class="phone1">
+
+            <div class="forPhone" *ngFor="let item of data">
+                <a href="tel: +420 000 000 000">
+                    <img class='contactPhone' src="{{item.category.icon}}" alt="phone"></a>
+                <p class='contactNumber'><a href="tel: +420 000 000 000">{{item.category.text}}</a></p>
+            </div>
+            <!-- </div> -->
+            <!-- <div class="forAddress"> -->
+            <div class="forAddress" *ngFor="let item of data">
+                <img class='contactLocation' src="{{item.category1.icon1}}" alt="location">
+                <p class="contactAddress">{{item.category1.text1}}</p>
+            </div>
+        </div>
+        <div class="locationInfo">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544997.081851534!2d42.79683750080573!3d40.05317908087665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40155684e773bac7%3A0xd0b4757aeb822d23!2sArmenia!5e1!3m2!1sen!2s!4v1672743903155!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>
+</div>

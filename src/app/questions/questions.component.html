@@ -1,0 +1,46 @@
+
+<section id="questions" class="container1">
+
+    <h2 class="questions" *ngFor="let item of data">{{item.title}}</h2>
+    <div class="mobileInfo">
+        <p class="mobileText"> Write to us and we will be sure to answer all your questions and give you a comprehensive consultation.</p>
+    </div>
+    <div class="usersInfo">
+        <form action="" [formGroup]="form">
+            <input [formControlName]="'first_name'" type="text" class="name" placeholder="Your name">
+            <div class="error-message"
+                *ngIf="form.get('first_name').hasError('required') && (form.get('first_name').touched || form.get('first_name').dirty)">
+                Name must be required</div>
+            <div class="error-message"
+                *ngIf="form.get('first_name').hasError('minlength') && (form.get('first_name').touched || form.get('first_name').dirty)">
+                Name must be minimum 2 symbols</div>
+            <div class="error-message"
+                *ngIf="form.get('first_name').hasError('maxlength') && (form.get('first_name').touched || form.get('first_name').dirty)">
+                Name must be maximum 10 symbols</div>
+            <input formControlName="phone" type="tel" class="tel" placeholder="Your telephone number">
+            <div class="error-message"
+                *ngIf="form.get('phone').hasError('required') && (form.get('phone').touched || form.get('phone').dirty)">
+                Phone must be required</div>
+            <div class="error-message"
+                *ngIf="form.get('phone').hasError('pattern') && (form.get('phone').touched || form.get('phone').dirty)">
+                Incorrect phone format</div>
+            <textarea formControlName="question" name="Your question" id="textarea"
+                placeholder="Your question"></textarea>
+            <div class="error-message"
+                *ngIf="form.get('question').hasError('required') && (form.get('question').touched || form.get('question').dirty)">
+                Question must be required</div>
+            <button [disabled]="form.invalid" type="button" class="orderButton  send" (click)="save()"
+                (click)="setVal()"><span class="forSending ">Send</span></button>
+        </form>
+
+
+        <div class="paragraph1" *ngFor="let item of data">
+            <p class="text"> {{item.text}}</p>
+            <img class='lastWood' src="{{item.icon}}" alt="wood">
+
+        </div>
+    </div>
+    <div>
+    </div>
+
+</section>

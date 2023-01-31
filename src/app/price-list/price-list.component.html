@@ -1,0 +1,18 @@
+<section id="firstPage">
+        <h2 class="priceText" *ngFor="let item of data">{{item.title}}</h2>
+        <div class="gallery" *ngFor="let item of data">
+            <carousel>
+                <slide class="slides">
+                  <img class="slides" src="{{item.image1}}" alt="first slide" style="display: block; width: 100%;">
+                  
+                </slide>
+                <slide class="slides">
+                  <img class="slides" src="{{item.image2}}" alt="second slide" style="display: block; width: 100%;">
+               
+                </slide>
+                <slide >
+                  <img class="slides" src="{{item.image3}}" alt="third slide" style="display: block; width: 100%;">
+                </slide> 
+              </carousel>
+        </div>
+</section>

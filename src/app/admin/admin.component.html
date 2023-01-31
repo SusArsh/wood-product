@@ -1,0 +1,121 @@
+<div>
+    <button type="button" class="btn-primary addBtn" tooltip="Click for open form"
+        (click)="openModal(template)">ADD</button>
+
+    <ng-template #template>
+        <div class="modal-header">
+            <h4 class="modal-title pull-left">Write your datas</h4>
+            <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
+                <span aria-hidden="true" class="visually-hidden">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form [formGroup]="form" (ngSubmit)="save()">
+                <label for="image">Image</label>
+                <div><input [formControlName]="'image'" type="file" id="image"></div>
+                <label for="icon">Icon</label>
+                <div><input type="file" formControlName="icon" id="icon"></div>
+                <label for="title">Title</label>
+                <div><input type="text" formControlName="title" id="title"></div>
+                <label for="text">Text</label>
+                <div><input type="text" formControlName="text" id="text"></div>
+                <label for="subtitle">Subtitle</label>
+                <div><input type="text" formControlName="subtitle" id="subtitle"></div>
+                <label for="button_text">Button text</label>
+                <div><input type="text" formControlName="button_text" id="button_text"></div>
+                <label for="path">Path</label>
+                <div><input type="text" formControlName="path" id="path"></div>
+                <button class="btn btn-primary" (click)="modalRef?.hide()">Save</button>
+            </form>
+        </div>
+    </ng-template>
+
+    <div class="block">
+        <div class="menu">
+            <ul class="menu_list">
+                <li *ngFor="let item of list; let i = index"><a class="list_item" (click)="getData(i)"
+                        [routerLink]="item.path">{{item.text}}</a></li>
+            </ul>
+        </div>
+
+        <div class="component">
+            <table>
+                <caption>Here is text</caption>
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Icon</th>
+                        <th>Title</th>
+                        <th>Text</th>
+                        <th>Subtitle</th>
+                        <th>Button text</th>
+                        <th>Path</th>
+                        <th colspan="2">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of data">
+                        <td>{{item.image}}</td>
+                        <td>{{item.icon}}</td>
+                        <td>{{item.title}}</td>
+                        <td>{{item.text}}</td>
+                        <td>{{item.subtitle}}</td>
+                        <td>{{item.btn_text}}</td>
+                        <td>{{item.path}}</td>
+                        <td>
+                            <button class="btn btn-success" type="button" (click)="openModal(template)"
+                                tooltip="Click for open form">Edit</button>
+                            <ng-template #template>
+                                <div class="modal-header">
+                                    <h4 class="modal-title pull-left">Write your datas</h4>
+                                    <button type="button" class="btn-close close pull-right" aria-label="Close"
+                                        (click)="modalRef?.hide()">
+                                        <span aria-hidden="true" class="visually-hidden">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form [formGroup]="form" (ngSubmit)="save()">
+                                        <label for="image">Image</label>
+                                        <div><input [formControlName]="'image'" type="file" id="image"
+                                                [(ngModel)]="item.image"></div>
+
+
+
+                                        <label for="icon">Icon</label>
+                                        <div><input type="file" formControlName="icon" id="icon"
+                                                [(ngModel)]="item.icon"></div>
+
+                                        <label for="title">Title</label>
+                                        <div><input type="text" formControlName="title" id="title"
+                                                [(ngModel)]="item.title"></div>
+
+                                        <label for="text">Text</label>
+                                        <div><input type="text" formControlName="text" id="text"
+                                                [(ngModel)]="item.text"></div>
+
+                                        <label for="subtitle">Subtitle</label>
+                                        <div><input type="text" formControlName="subtitle" id="subtitle"
+                                                [(ngModel)]="item.subtitle"></div>
+
+                                        <label for="button_text">Button text</label>
+                                        <div><input type="text" formControlName="button_text" id="button_text"
+                                                [(ngModel)]="item.btn_text"></div>
+
+
+                                        <label for="path">Path</label>
+                                        <div><input type="text" formControlName="path" id="path"
+                                                [(ngModel)]="item.path"></div>
+
+                                        <button class="btn btn-primary" (click)="modalRef?.hide()"
+                                            (click)="putData()">Save</button>
+                                    </form>
+                                </div>
+                            </ng-template>
+                            <button class="btn btn-danger" type="button" (click)="deleteData">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- <router-outlet></router-outlet> -->
+    </div>

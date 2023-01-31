@@ -1,0 +1,35 @@
+
+    <div class="nav">
+        <div class="logo"><a routerLink="/home">
+                <img class="logo1" src="../../assets/images/logo .png">
+            </a>
+        </div>
+        <ul class="menu">
+            <li class="menuList1"><a routerLink="/gallery">Gallery</a></li>
+            <li class="menuList2"><a routerLink="/price">Prices for services</a></li>
+            <li class="menuList3"><a routerLink="/about">About us</a></li>
+            <li class="menuList4"><a routerLink="/contact">Contact</a></li>
+        </ul>
+    </div>
+    <section id="mobileMenu">
+        <div class="navigation" >
+            <div class="logo" > <a routerLink="/home">
+                    <img src="../../assets/images/logo .png">
+                </a>
+            </div>
+        <div class="btn-group" dropdown>
+            <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle menu-button"
+                    aria-controls="dropdown-basic">
+              <img src="../../assets/images/GroupMenu.png"></button>
+            <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+                 aria-labelledby="button-basic">
+              <li role="menuitem"><a class="dropdown-item pages" routerLink="/gallery">Gallery</a></li>
+              <li role="menuitem"><a class="dropdown-item pages" routerLink="/price">Prices for services</a></li>
+              <li role="menuitem"><a class="dropdown-item pages" routerLink="/about">About us</a></li>
+             
+              <li role="menuitem"><a class="dropdown-item pages" routerLink="/contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+    </section>

@@ -1,0 +1,302 @@
+.woodTextureDesign {
+    display: flex;
+    justify-content: space-between;
+}
+.container1{
+    width: 99%;
+    margin: auto;
+}
+
+.workingWith {
+    width: 746px;
+    margin-left: 243px;
+    margin-top: 266px;
+    font-family: 'KyivType Sans Bold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
+    text-transform: uppercase;
+    color: #F5F5F5;
+}
+
+.firstWood {
+    width: 30%;
+    max-width: 280px;
+    height: 560px;
+    margin-left: 126px;
+    margin-top: 125px;
+}
+
+.firstTexture {
+    width: 205px;
+    height: 205px;
+    /* margin-left: 132px; */
+    margin-top: 0px;
+    border-radius: 42px;
+}
+
+.designHeader {
+    width: 59px;
+    margin-left: 79px;
+    margin-top: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+}
+
+.buk {
+    width: 56px;
+    margin-left: 76px;
+    margin-top: 33px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+}
+
+.ash {
+    width: 58px;
+    margin-left: 75px;
+    margin-top: 33px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+}
+
+.texture {
+    list-style-image: url('../../assets/images/Vector.png');
+    /* margin-left: 0px; */
+    margin-top: 38px;
+}
+
+.property1 {
+    width: 138px;
+    margin-bottom: 24px;
+    /* margin-left: 35px; */
+    margin-top: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+}
+
+.property2 {
+    width: 209px;
+    margin-bottom: 31px;
+    /* margin-left: 35px; */
+    margin-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #F5F5F5;
+}
+
+.property3 {
+    /* margin-left: 35px; */
+    margin-top: 31px;
+    margin-bottom: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #F5F5F5;
+    width: 242px;
+}
+
+.property4 {
+    list-style-image: url('../../assets/images/Vector1.png');
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #F5F5F5;
+    margin-top: 26px;
+    /* margin-left: 35px; */
+    width: 211px;
+}
+
+.secondWood {
+    width: 30%;
+    max-width: 280px;
+    height: 456px;
+    margin-left: 205px;
+    margin-top: 125px;
+}
+
+.thirdWood {
+    width: 30%;
+    max-width: 280px;
+    height: 456px;
+    margin-left: 205px;
+    margin-top: 125px;
+}
+
+@media screen and (max-width: 1260px){
+    .firstWood{
+        margin-left: 120px;
+    }
+    .secondWood  {
+        margin-left: 150px;
+    }
+    .thirdWood{
+        margin-left: 160px;
+
+    }
+}
+@media screen and (max-width: 1200px){
+    .firstWood {
+        margin-left: 60px;
+    }
+    .secondWood{
+        margin-left: 85px;
+    }
+    .thirdWood{
+        margin-left: 60px;
+    }
+    .property1,.property2,.property3,.property4{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .secondWood, .thirdWood {
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 1130px){
+    .secondWood, .thirdWood {
+        margin-left: 130px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .container1{
+        overflow-x: scroll;;
+    }
+    .firstTexture,.secondTexture, .thirdTexture {
+        width: 180px;
+        height: 180px;
+
+    }
+}
+@media screen and (max-width: 1090px){
+    .woodTextureDesign{
+        overflow-x: scroll;
+    
+    }
+}
+@media screen and (max-width: 992px){
+     .thirdWood {
+        margin-left: 150px;
+    }
+    .secondWood {
+        margin-left: 140px;
+        margin-top: 245px;
+    }
+}
+@media screen and (max-width: 950px){
+    .workingWith{
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .workingWith{
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width: 870px){
+    .workingWith{
+        font-size: 50px;
+        width: 500px;
+        margin-left: 260px;
+    }
+    .firstTexture, .secondTexture, .thirdTexture{
+        width: 150px;
+        height: 150px;
+    }
+    .secondWood, .thirdWood{
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width: 800px){
+    .thirdWood {
+       margin-left: 130px;
+   }
+   .secondWood {
+       margin-left: 110px;
+   }
+}
+@media screen and (max-width: 760px){
+    .workingWith{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .workingWith{
+        margin-left: 145px;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+   
+    .secondWood {
+        margin-left: 150px;
+    }
+    .container1 {
+        /* width: 60px; */
+        margin: auto;
+    }
+    .designHeader{
+        font-size: 60px;
+        text-align: center;
+    }
+    .property1, .property2, .property3, .property4 {
+        font-size: 20px;
+    }
+    .designHeader{
+        font-size: 30px;
+    }
+    .workingWith{
+        margin-left: 80px;
+    }
+   
+}
+@media screen and (max-width: 480px) {
+   
+    .workingWith{
+        margin-left: 50px;
+    }
+   
+}
+@media screen and (max-width: 450px) {
+    .workingWith{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .workingWith{
+       width: 300px;
+    } 
+    .firstTexture, .secondTexture, .thirdTexture{
+        width: 90px;
+        height: 90px;
+        border-radius: 14px;
+    }
+    .designHeader{
+        margin-left: 20px;
+    }
+}
