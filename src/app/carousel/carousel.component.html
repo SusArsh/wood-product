@@ -1,38 +1,38 @@
 <section id="gallery">
     <div class="container" *ngFor="let item of data">
     <h2 class="ourWork">{{item.title}}</h2>
-    
+
         <div class="gallery">
-         
+
           <!-- <div class='arrow1'>
               <img class='imgArrow1' src="../../assets/images/Vector22.png" alt="arrow">
             </div> -->
             <carousel>
               <slide class="slides">
                 <img class="slides" src="{{item.images.image1}}" alt="first slide" style="display: block; width: 100%;">
-                
+
               </slide>
               <slide class="slides">
                 <img class="slides" src="{{item.images.image2}}" alt="second slide" style="display: block; width: 100%;">
-             
+
               </slide>
               <slide >
                 <img class="slides" src="{{item.images.image3}}" alt="third slide" style="display: block; width: 100%;">
               </slide>
-              
-           
+
+
             </carousel>
             <!-- <div class='arrow2'>
                 <img class='imgArrow2' src="../../assets/images/Vector11.png" alt="arrow">
             </div> -->
             <div class="ellipses">
-              
+
               <!-- <img class='ellipse1' src="../../assets/images/Ellipse 3.png" alt="ellipse">
                 <img class='ellipse2' src="../../assets/images/Ellipse 2.png" alt="ellipse">
                 <img class='ellipse3' src="../../assets/images/Ellipse 3.png" alt="ellipse"> -->
             </div>
         </div>
-     
+
     </div>
-   
+
 </section>
